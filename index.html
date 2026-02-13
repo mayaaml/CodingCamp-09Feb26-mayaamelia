@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Software Engineer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+       <i class="fas fa-code"></i><span>AmeyDev</span>
+        <ul>
+            <li><a href="#"><i class="fas fa-house"></i> Home</a></li>
+            <li><a href="#our-profile"><i class="fas fa-user"></i> Profile</a></li>
+            <li><a href="#message-us"><i class="fas fa-envelope"></i> Message</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 id="welcome-title">Hi, Selamat Datang di Website Kami</h1>
+        <p>Software Engineer Portofolio</p>
+    </header>
+
+    <section id="our-profile">
+        <div class="section-title">
+            <h2><i class="fas fa-id-card"></i> Our Profile</h2>
+            <hr>
+        </div>
+
+        <div class="about-container">
+            <div class="about-text">
+                <h3>Who We Are</h3>
+                <p>Kami adalah tim pengembang perangkat lunak yang berdedikasi untuk menciptakan solusi digital inovatif. Dengan pengalaman bertahun-tahun di industri IT, kami membantu bisnis bertransformasi melalui teknologi yang tepat guna.</p>
+            </div>
+        </div>
+
+        <div class="content grid-profile">
+            <div class="profile-card">
+                <div class="card-icon"><i class="fas fa-eye"></i></div>
+                <h3>Visi</h3>
+                <p>Menjadi mitra teknologi terpercaya yang menginspirasi perubahan digital global melalui kode yang berkualitas tinggi.</p>
+            </div>
+
+            <div class="profile-card">
+                <div class="card-icon"><i class="fas fa-rocket"></i></div>
+                <h3>Misi</h3>
+                <p>Memberikan solusi perangkat lunak yang skalabel, aman, dan memberikan nilai tambah nyata bagi setiap klien kami.</p>
+            </div>
+
+            <div class="profile-card">
+                <div class="card-icon"><i class="fas fa-shield"></i></div>
+                <h3>Core Values</h3>
+                <p>Integritas, Inovasi, dan Fokus pada Pengguna adalah pilar utama dalam setiap baris kode yang kami tulis.</p>
+            </div>
+        </div>
+
+        <div class="profile-stats">
+            <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">20+</span>
+                <span class="stat-label">Happy Clients</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="message-us">
+        <h2><i class="fas fa-paper-plane"></i> Message Us</h2>
+            <p>Punya pertanyaan atau ingin bekerja sama? Hubungi kami sekarang.</p>
+        <form id="messageForm">
+            <input type="text" id="nameInput" placeholder="Nama" required>
+            <input type="email" id="emailInput" placeholder="Email" required>
+            <input type="tel" id="phoneInput" placeholder="Nomor Telepon" required>
+            <textarea id="messageInput" placeholder="Pesan"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="resultArea" class="result-box">
+            <h3><i class="fas fa-database"></i> Ringkasan Pesan:</h3>
+            <p id="displayResult">Data Anda akan tampil di sini secara real-time setelah tombol submit ditekan</p>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
